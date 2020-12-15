@@ -7,9 +7,7 @@
 hr{
     border-top: 1px solid lightgray;
 }
-.margen-superior20{
-    margin-top: 20px;
-}
+
 .container{
     background-color: #e4f1f5 ;
     padding-left: 70px;
@@ -56,9 +54,14 @@ hr{
     cursor: pointer;
     transition: 0.4s;
 }
-
+.margen-superior20{
+    margin-top: 20px;
+}
 .margen-izquierdo{
     margin-left: 15px;
+}
+.margen-inferior{
+    margin-bottom: 20px;
 }
 .card{
     background-color: ghostwhite;
@@ -66,4 +69,14 @@ hr{
     border-radius: 15px;
     width: 20%;
     height: 170px;
+}
+.padding-card{
+    padding: 20px;
+}
+.mas{
+    width: 100%;
+    padding: 0 20px;
+    position: absolute;
+    bottom: 12px;
+    left: 0;
 }
