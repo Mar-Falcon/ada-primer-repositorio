@@ -4,6 +4,12 @@
     margin: 0;
     box-sizing: border-box;
 }
+hr{
+    border-top: 1px solid lightgray;
+}
+.margen-superior20{
+    margin-top: 20px;
+}
 .container{
     background-color: #e4f1f5 ;
     padding-left: 70px;
@@ -16,6 +22,11 @@
     display: flex;
    
 }
+.displayflexcomun{
+    display: flex;
+    flex-direction: column;
+}
+
 .spacebetween{
     justify-content: space-between;
 }
@@ -31,10 +42,28 @@
 .boton {
     background-color: red;
     color: white;
-    border-radius: 20px;
-    padding: 15px 15px 15px 15px;
+    border-radius: 25px;
+    padding: 10px 15px 10px 15px;
     cursor: pointer;
+    transition: 0.4s;
 }
+.boton:hover {
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+    border-radius: 25px;
+    padding: 10px 15px 10px 15px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
 .margen-izquierdo{
     margin-left: 15px;
+}
+.card{
+    background-color: ghostwhite;
+    border: 1px solid gray;
+    border-radius: 15px;
+    width: 20%;
+    height: 170px;
 }
